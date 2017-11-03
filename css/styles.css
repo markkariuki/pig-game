@@ -1,16 +1,17 @@
 .header h1{
 font-size: 100px;
 text-align: center;
-font-family: monospace;
+font-family: cursive;
 font-style: italic;
 background-color: grey;
+height: 35vh;
 }
 
 .description p{
   font-size: 30px;
   text-align: center;
   font-family: monospace;
-  font-style: italic;
+  font-style:italic;
 }
 
 .description{
@@ -34,4 +35,8 @@ background-color: grey;
 
 body{
   background-color: grey;
+}
+
+#player-col{
+  margin-left: 500px;
 }
