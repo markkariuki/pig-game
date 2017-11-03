@@ -9,11 +9,9 @@
 this is a similar game to who people role dices its a game whereby when you press the button roll it will roll and the first one to reach to reach 100 will be the winner
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* git clone the repo to your local machine
+* open the html file on your browser
+* or you can find the find the live project at the link on my description
 
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 
