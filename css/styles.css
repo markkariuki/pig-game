@@ -24,7 +24,7 @@ font-style: italic;
   font-style: italic;
 }
 
-.rules ul li{
+.rules ul {
   text-align: center;
   font-size: 20px;
   font-family: monospace;
@@ -32,7 +32,6 @@ font-style: italic;
 
 }
 
-.rules li{
- text-align: center;
- margin-left: 300px;
+body{
+  background-color: grey;
 }
