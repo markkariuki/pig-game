@@ -40,3 +40,7 @@ body{
 #player-col{
   margin-left: 500px;
 }
+
+player-col{
+text-align: center;
+}

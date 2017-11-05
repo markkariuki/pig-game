@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootsrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta charset="utf-8">
     <title>pig-dice</title>
   </head>
@@ -32,7 +31,29 @@
       </div>
       <hr width="50%" height"50%">
 
-      <section id="user">
+        <div class="container">
+            <!--player interface-->
+            <div class="row">
+              <div class="col-md-3" id="player-col">
+
+                <!--form to collect the players names-->
+                <form id="players">
+                  <div class="form-group">
+                    <label for="player1">Name</label>
+                    <input type="text" class="form-control" id="player1" placeholder="Player 1">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="player2">Name</label>
+                    <input type="text" class="form-control" id="player2" placeholder="Player 2">
+                  </div>
+
+                  <button class="btn btn-success" id="player" type="submit">Enter Game</button>
+                </form>
+               </div>
+              </div>
+            </div>
+          </div>
 
 
   </body>
