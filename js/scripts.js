@@ -21,5 +21,15 @@ $(document).ready(function() {
                $("form#players").fadeOut(3000);
              });
 
-  }
-}}
+
+
+             $("button#die1").click(function() {
+                            var die = Math.floor(Math.random() * (6)) + 1;
+                            $("h2#die-count").text(die);
+
+                            if (die === 1) {
+                              $("div#player2-roll").fadeIn();
+                              $("div#player1-roll").fadeOut();
+
+
+})
