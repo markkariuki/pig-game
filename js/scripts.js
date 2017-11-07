@@ -22,5 +22,24 @@ $("h3#player1").text(players[0].playerName);
 $("h3#player2").text([layers[1].playerName);
 $("div#player1-roll").show();
  alert("may the game start" + players[0].playerName);
- $("form#players").fadeOut(3000);)
- )
+ $("form#players").fadeOut(3000);
+ })
+};
+$("button#die1").click(function() {
+var die = Math.floor(Math.random() * (6)) + 1;
+$("h2#die-count").text(die);
+ if (die === 1) {
+$("div#player2-roll").fadeIn();
+   $("div#player1-roll").fadeOut();
+
+  holdNum = [];
+$("h4#hold-total1").text("0");
+ alert(players[1].playerName + " your turn!")
+  } else {
+ holdNum.push(die);
+var total = holdNum.reduce(function(total, countNumber) {
+ return total + countNumber;
+  });
+ $("h4#hold-total1").text(total);
+  }
+});

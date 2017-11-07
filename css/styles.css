@@ -46,3 +46,22 @@ body{
 player-col{
 text-align: center;
 }
+
+.header {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+;
+flex-direction: column;
+}
+
+.header{
+  background-image: url(/home/david/Documents/pig-dice/images/y.jpg);
+  height: 100vh;
+}
