@@ -62,7 +62,7 @@ flex-direction: column;
 }
 
 .header{
-  background-image: url(/home/david/Documents/pig-dice/images/y.jpg);
+  background-image: url(../images/y.jpg);
   height: 100vh;
 }
 
